@@ -14,6 +14,8 @@
 		07902BBB1EE93ACA00C926D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07902BB91EE93ACA00C926D7 /* LaunchScreen.storyboard */; };
 		07902BC61EE93ACA00C926D7 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07902BC51EE93ACA00C926D7 /* PostcardTests.swift */; };
 		07902BD11EE93ACA00C926D7 /* PostcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07902BD01EE93ACA00C926D7 /* PostcardUITests.swift */; };
+		07902BE01EE9496900C926D7 /* 35-grandes-frases-de-Albert-Einstein-30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07902BDF1EE9496900C926D7 /* 35-grandes-frases-de-Albert-Einstein-30.jpg */; };
+		07902BE21EE9497200C926D7 /* Sagrada-+2+(1+of+1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07902BE11EE9497200C926D7 /* Sagrada-+2+(1+of+1).jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		07902BCC1EE93ACA00C926D7 /* PostcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07902BD01EE93ACA00C926D7 /* PostcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardUITests.swift; sourceTree = "<group>"; };
 		07902BD21EE93ACA00C926D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07902BDF1EE9496900C926D7 /* 35-grandes-frases-de-Albert-Einstein-30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "35-grandes-frases-de-Albert-Einstein-30.jpg"; sourceTree = "<group>"; };
+		07902BE11EE9497200C926D7 /* Sagrada-+2+(1+of+1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sagrada-+2+(1+of+1).jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,9 @@
 		07902BAF1EE93ACA00C926D7 /* Postcard */ = {
 			isa = PBXGroup;
 			children = (
+				07902BE11EE9497200C926D7 /* Sagrada-+2+(1+of+1).jpg */,
+				07902BDF1EE9496900C926D7 /* 35-grandes-frases-de-Albert-Einstein-30.jpg */,
+				07902BDE1EE9491100C926D7 /* Supporting Files */,
 				07902BB01EE93ACA00C926D7 /* AppDelegate.swift */,
 				07902BB21EE93ACA00C926D7 /* ViewController.swift */,
 				07902BB41EE93ACA00C926D7 /* Main.storyboard */,
@@ -123,6 +130,13 @@
 				07902BD21EE93ACA00C926D7 /* Info.plist */,
 			);
 			path = PostcardUITests;
+			sourceTree = "<group>";
+		};
+		07902BDE1EE9491100C926D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07902BBB1EE93ACA00C926D7 /* LaunchScreen.storyboard in Resources */,
+				07902BE21EE9497200C926D7 /* Sagrada-+2+(1+of+1).jpg in Resources */,
+				07902BE01EE9496900C926D7 /* 35-grandes-frases-de-Albert-Einstein-30.jpg in Resources */,
 				07902BB81EE93ACA00C926D7 /* Assets.xcassets in Resources */,
 				07902BB61EE93ACA00C926D7 /* Main.storyboard in Resources */,
 			);
